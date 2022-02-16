@@ -1,0 +1,578 @@
+/*================================= comoon css =================================*/
+body {
+	font-family: 'Rubik', sans-serif !important;
+	background-color: #fff;
+	touch-action: manipulation;
+}
+.font-rubik, .navbar-nav-link{
+	font-family: 'Rubik', sans-serif !important;
+}
+.rubik-bold, .services-tab li.nav-item a{
+	font-weight:600;
+}
+
+/* .dropdown-menu{
+	display: block;
+} */
+.text-light{
+	color:#e3e4e5;
+}
+body, a, p, button, .primary-font {
+	font-family: 'Rubik', sans-serif !important;
+}
+.secondary-font, h4{
+	font-family: "Playfair Display";
+}
+.text-black{
+	color:#222;
+}
+/*================================= theme colors and font family boldness class start =================================*/
+/* custom start */
+
+.custom-logo {
+    width: 150px;
+}
+.content-wrapper{
+	overflow: hidden;
+}
+.play-font-medium{
+	font-weight:600;
+}
+.play-font-normal{
+	font-weight:normal;
+}
+.text-light{
+	color: #ababab !important;
+	font-style: normal;
+}
+.bg-black, .navbar-expand-lg.navbar-light .navbar-collapse, .season-btn.selected{
+	background-color: #161616;
+}
+.bg-light-black{
+	background-color:#121212;
+}
+.text-orenge, .social-menu a:hover, .services-tab a.nav-link{
+	color:#f4d596 !important;
+}
+.text-light, .social-menu a{
+	color: #ababab;
+}
+.text-medium{
+	color:#757575;
+}
+.font-small, .social-menu a, .social-menu a i:before {
+	font-size: 13px !important;
+	line-height:30px;
+}
+.slider-band .owl-carousel .owl-item .item img {
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+/* slider css start */
+ .slider-band, .slider-band .item{
+	overflow:hidden;
+}
+.slider-band img{
+	-webkit-animation: breath 8s ease-in-out alternate infinite;
+	-moz-animation: breath 8s ease-in-out alternate infinite;
+	animation: breath 8s ease-in-out alternate infinite;
+}
+.slider-content.center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slider-content.center-content.left-content.text-left {
+    transform: translate(-100%, -50%);
+}
+.center-content p{
+	letter-spacing: 1.2px;
+}
+/* custom end */
+.section-spacer{
+	padding:60px 0px;
+}
+/*================================= theme colors class end =================================*/
+/*================================= 3  Inputs ( #input ) =================================*/
+.user-select-none {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+button:focus, input:focus {
+	outline: none;
+}
+a,
+a:hover, button, button:hover {
+	transition: all 0.5s ease 0s !important;
+}
+.subscribe-mail input {
+    border: 1px solid #ababab !important;
+	padding: 7px 50px;
+	width: 31%;
+	text-align: center;
+}
+.subscribe-mail input::-webkit-input-placeholder { /* Edge */
+	color: #ababab;
+	text-transform:uppercase;
+	font-size: 14px;
+	
+  }
+  .subscribe-mail input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: #ababab;
+	text-transform:uppercase;
+	font-size: 14px;
+  }
+  
+  .subscribe-mail input::placeholder {
+	color: #ababab;
+	text-transform:uppercase;
+	font-size: 14px;
+  }
+/*================================= 4 Global Styles (#glob) =================================*/
+p, .icon-arrow i:before{
+	font-size: 15px;
+    line-height: 25px;
+}
+.text-medium, a, .video-icon i:before{
+	font-size:15px;
+	font-weight:400;
+}
+.w-fit{
+	width:fit-content;
+	width:moz-fit-content;
+}
+.font-semi-small{
+	font-size:12px;
+}
+h1, .font-heading {
+	font-size:16px;
+	color: #fff;
+	font-family: 'Rubik', sans-serif !important; 
+	font-weight: 600;
+}
+h1{
+	padding-left: 60px;
+}
+h2, .typewrite, h2 span {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    position: relative;
+	font-style: normal;
+}
+h3 {
+	font-size: 48px;
+	font-family: "Playfair Display";
+	font-weight: 600;
+}
+h4{
+	font-size:18px;
+}
+h5{
+	font-weight: 800;
+    font-size: 35px;
+    font-family: "Playfair Display";
+    font-style: italic;
+}
+h6, .font-large, h2.heading, h2.heading i:before{
+	font-size:18px;
+}
+button {
+    cursor: pointer;
+}
+/* n css */
+.btn-animated, .btn-from {
+    color: #fff;
+    background: #ff4328;
+	border-radius: 30px;
+    font-size: 14px;
+    padding: 16px 50px;
+    font-weight: 700;
+    border: 1px solid #ff4328;
+    font-family: 'Poppins', sans-serif;
+	animation: shadow-pulse-yellow 2s infinite;
+}
+.btn-animated:hover, .btn-from:hover, .btn-from:hover span{
+	background: transparent;
+	color:#000 !important;
+}
+@keyframes shadow-pulse-yellow
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(255, 67, 40, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 35px rgba(255, 67, 40, 0);
+  }
+}
+.section-icon {
+    width: 70px;
+}
+.section-we-are .block-content {
+    position: relative;
+    z-index: 9;
+}
+.section-we-are.bg-black.section-spacer.position-relative:after {
+    position: absolute;
+    content: '';
+    top: -40px;
+    right: -280px;
+    width: 800px;
+    height: 800px;
+	border: 80px solid #161616;
+    border-radius: 50%;
+    z-index: 1;
+    -webkit-box-shadow: 0 25px 60px rgb(0 0 0 / 67%), inset 0 25px 60px rgb(0 0 0 / 67%);
+    box-shadow: 0 25px 60px rgb(0 0 0 / 67%), inset 0 25px 60px rgb(0 0 0 / 67%);
+}
+.services-tab a.nav-link.active.show,  .services-tab a.nav-link.active {
+	background: #fec931 !important;
+    border: transparent !important;
+    border-radius: 30px !important;
+    padding: 10px 45px !important;
+	color: #000 !important;
+}
+.services-block-content i {
+    font-size: 50px;
+}
+.services-block-content i {
+    font-size: 50px;
+    background: #f4d596;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100%;
+	animation: shadow-pulse-yellow 2s infinite;
+	position: relative;
+	border-radius: 50px 50px 0px 50px;
+}
+.services-block-content i:before {
+	font-size: 65px;
+}
+input:placeholder-shown ~ .form-control-placeholder, 
+textarea:placeholder-shown ~ .form-control-placeholder{
+	top: 5px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-family: 'Rubik', sans-serif !important;
+}
+ input ~ .form-control-placeholder, 
+ .form-control:focus ~ .form-control-placeholder, 
+ textarea ~ .form-control-placeholder, 
+ textarea.form-control:focus ~ .form-control-placeholder {
+    position: absolute;
+     transition: all 0.2s linear;
+     -webkit-transition: all 0.2s linear;
+     -moz-transition: all 0.2s linear;
+     -o-transition: all 0.2s linear;
+     top:-15px;
+     font-size: 13px;
+     margin-left: 0;
+     color: #ff4328;
+	 font-weight: 600;
+	 text-transform: capitalize;
+	 font-family: 'Rubik', sans-serif !important;
+}
+.form-control{
+	background-color: transparent;
+	box-shadow: none;
+	border: none;
+	box-shadow: none;
+	border-bottom: 1px solid #e1e1e1;
+	color: #000 !important;
+	font-family: 'Rubik', sans-serif !important;
+	border-radius: 0px !important;
+	padding-left: 0;
+}
+.contact-detail-block i, .social-icon-menu i {
+	font-size: 15px;
+    background: #f4d596;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 0px 30px;
+	border-radius: 50px 50px 0px 50px;
+}
+.social-icon-menu i{
+	font-size: 10px;
+	width: 25px;
+    height: 25px;
+}
+.copy-right-text p {
+    letter-spacing: 1.5px;
+}
+.shape-icon {
+    color: #e3e4e517;
+    font-size: 100px;
+}
+.icon-top-left {
+    top: 50px;
+    left: 50px;
+    z-index: 9999;
+}
+.icon-bottom-right{
+	bottom: 50px;
+	top:auto;
+    right: 50px;
+    z-index: 9999;
+}
+.icon-top-right{
+	top: 50px;
+	bottom:auto;
+    right: 50px;
+}
+.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+.bg-moving, .page-content {
+	-webkit-animation: slide 20s linear infinite;
+  }
+  @-webkit-keyframes slide {
+	from { background-position: 0 0; }
+	to { background-position: -0px -400px; }
+  }
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+.slider-band .icon-top-left{
+	top:50%;
+	z-index: 9999;
+}
+.icon-center{
+	bottom: 0%;
+	top:auto;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  z-index: 9999;
+}
+.icon-top-right{
+	z-index: 9999;
+}
+/* project custom css */
+
+/* White layout */
+.slide-left-content{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+.slide-right-content h2 {
+    font-family: 'Pacifico';
+    position: absolute;
+    top: 50%;
+    z-index: 9;
+    font-size: 100px;
+    color: rgba(34, 34, 34, 0.102);
+}
+.section-slide.position-relative {
+    background-image: url(../images/12-app-showcase-background.jpg);
+    background-size: cover;
+}
+.text-marun, .icon-marun i:before{
+	color:#ff4328;
+}
+.text-yellow, .icon-yellow i:before{
+	color:#fec931 !important
+}
+.text-blue, .text-blue i:before{
+	color:#1b9ad6;
+}
+.text-green, .icon-green i:before{
+	color:#2ed67b;
+}
+.bg-yellow{
+	background-color:#fec931 !important
+}
+.bg-blue{
+	background-color:#1b9ad6 !important;
+}
+.bg-green{
+	background-color:#2ed67b !important;
+}
+.bg-marun{
+	background-color:#ff4328 !important;
+}
+.shape i:before {
+    font-size: 77px;
+	opacity: 0.8;
+}
+.shape-center{
+	top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.shape-left-top {
+    top: 29%;
+    left: 20%;
+}
+.shape-right-top{
+	left: auto;
+	right:0px;
+}
+.shape-left-bottom{
+	top:auto;
+	bottom:0
+}
+h1:after {
+    content: "";
+    position: absolute;
+    background: #fec931;
+    top: 12px;
+    width: 45px;
+    height: 3px;
+    left: 0;
+}
+.contact-item-menu em {
+    font-size: 12px;
+    font-style: inherit;
+}
+.contact-item-menu i {
+    position: relative;
+    top: 2px;
+}
+.section-heading h4 {
+	width: fit-content;
+    margin: 0 auto;
+}
+.section-heading h4:after, .section-heading h4:before {
+    position: absolute;
+    content: "";
+    background: #fec931;
+    width: 23px;
+    bottom: 13px;
+    left: -33px;
+    height: 2px;
+}
+.section-heading h4:before{
+	right: -33px;
+	left:auto;
+}
+.section-about-lef-content i:before {
+    color: #fff;
+    font-size: 200px;
+}
+.section-about-lef-content i {
+    width: 300px;
+    height: 300px;
+    background: #fec931;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-flex-box img {
+    border-radius: 1200%;
+}
+.services-tab li.nav-item a {
+    background: #ff4328 !important;
+    border: transparent !important;
+    border-radius: 30px !important;
+    padding: 10px 45px !important;
+    color: #000 !important;
+}
+.sticky .navbar {
+    box-shadow: -1px 4px 5px 1px rgb(20 14 20 / 11%);
+    background: #fff;
+}
+.page-content, .custom-footer {
+    background-image: url(../images/Pattan-op.png);
+}
+.top-menu {
+    background: #fff;
+}
+.top-menu li {
+    list-style: none;
+    text-align: left;
+}
+/*================================= second-header css start =================================*/
+/*=================================== media query css ===================================*/
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+	.section-about-lef-content i{
+		margin: 0 auto;
+	}
+	h2, .typewrite, h2 span {
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.contact-detail-block i, .social-icon-menu i{
+		margin-left: 0 !important;
+	}
+	.social-icon-menu {
+		justify-content: center !important;
+	}
+	.social-icon-menu a{
+		margin:0px 15px;
+	}
+	h5{
+		font-size: 20px;
+	}
+	.section-slide .shape {
+		display: none;
+	}
+	.navbar-brand {
+		width: 100%;
+    	text-align: center;
+	}
+	.navbar-brand{
+		padding-bottom:0px !important;
+	}
+	p, span, a,
+	a:hover, button, button:hover, .text-medium, a, .video-icon i:before{
+		font-size: 13px;
+	}
+	.navbar-nav-link{
+		padding: 10px 11px;
+	}
+	.custom-header li.nav-item{
+		width: 100%;
+	}
+	.navbar-brand img, .fooer-logo{
+		width: 90px;
+	}
+    .section-spacer {
+        padding: 30px 0px;
+    }
+}
+
+@media (min-width: 1200px){
+	.container {
+		max-width: 1140px;
+	}
+
+	.right-panel-tab ul li .nav-link {
+		padding: 7px 20px;
+	}
+
+}
+@media (min-width: 1500px) {
+	.container {
+		max-width: 1140px !important;
+	}
+	
+}
